@@ -135,7 +135,7 @@ GameStart.prototype.draw = function()
 
 		graphics.fillStyle = "#FFF";
 		graphics.font = "bold 20px Arial";
-		graphics.fillText("AI By Jules Wang", 10, 425);
+		graphics.fillText("AI坦克大战", 10, 425);
 		gameState = STATE_SELECT;
 		this.init();
 

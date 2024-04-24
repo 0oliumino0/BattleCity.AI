@@ -207,7 +207,7 @@ Bullet.prototype.hitTanks = function()
 		{
 			var tankScore;
 			
-			if(this.type == 0)                                        //×Óµ¯ÊÇ×Ô¼º·¢ÉäµÄ
+			if(this.type == 0)                                        //ï¿½Óµï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			{
 				tanks[i].life --;
 				
@@ -293,7 +293,7 @@ function updataBullets()
 						if(i < j) {i --;}
 						else {i -= 2;}
 						
-						j = 1000;//ÍË³öÑ­»·
+						j = 1000;//ï¿½Ë³ï¿½Ñ­ï¿½ï¿½
 					}
 			}
 		}
@@ -305,13 +305,13 @@ function updataBullets()
 		
 		if(bullets[i].checkHit()) 
 		{
-			isHit = true;//Åöµ½Ç½±Ú
+			isHit = true;//ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½
 		}
 		
 		if(bullets[i].hitTanks())  
 		{
 			isHit = true;
-		}//Åöµ½Ì¹¿Ë
+		}//ï¿½ï¿½ï¿½ï¿½Ì¹ï¿½ï¿½
 	
 
 		if(isHit && bullets[i]) 
